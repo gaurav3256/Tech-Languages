@@ -29,7 +29,6 @@ class _BodyState extends State<Body> {
         pdfList = jsonDecode(response.body);
         loading = false;
       });
-      print(pdfList);
     }
   }
 
